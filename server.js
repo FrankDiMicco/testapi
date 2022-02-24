@@ -36,6 +36,6 @@ app.get('/api/herbs', (request, response) => {
     response.json(herbs)
 })
 
-app.listen(PORT, function() {
+app.listen(process.env.PORT || PORT, function() {
   console.log(`listening on ${PORT}`)
 })
