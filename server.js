@@ -23,7 +23,7 @@ let herbs = {
 
 
 
-app.post('/quotes', (req, res) => {
+app.post('/api/herbs', (req, res) => {
   console.log('Hellooooooooooooooooo!')
 })
 //test
